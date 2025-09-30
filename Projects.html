@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projects</title>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                min-height: 25vh;
+                background-image: url('Images/Background.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                color: #000000;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: 'Gloria Hallelujah', cursive;
+            }
+
+            .Links {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                align-items: center;
+                margin-top: 30px;
+            }
+
+            .Links a {
+                color: #000000;
+                font-weight: 900;
+                text-decoration: none;
+                font-size: 40px;
+                display: inline-block;
+                transition: transform 0.18s ease, font-size 0.18s ease;
+                transform-origin: center;
+                font-family: 'Gloria Hallelujah', cursive;
+            }
+
+            .Links a:hover,
+            .Links a:focus-visible {
+                transform: scale(1.2);
+                text-decoration: underline;
+            }
+
+            .back-button {
+                position: fixed;
+                bottom: 12px;
+                left: 12px;
+                background: transparent;
+                color: #000000;
+                font-weight: bold;
+                font-size: 27px;
+                padding: 6px 18px;
+                text-decoration: none;
+            }
+
+
+            h1 {
+                font-size: 74px;
+                font-family: 'Gloria Hallelujah', cursive;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                color: #000000;
+            }
+
+
+            .back-button:hover {
+                color: #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Projects</h1>
+        <div class="Links">
+            <a href="Art.html">ART</a>
+            <a href="Ecs.html">ECS</a>
+            <a href="ELA.html">ELA</a>
+            <a href="Math.html">MATH</a>
+            <a href="Health.html">HEALTH</a>
+            <a href="Spanish.html">SPANISH</a>
+        </div>
+        <a href="Index.html" class="back-button">&#8592; BacK</a>
+    </body>
+</html>
